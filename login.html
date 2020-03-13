@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+      <title>LOGIN PAGE</title>
+        <link rel="stylesheet" type="text/css" href="css\style.css">
+  </head>
+  <body oncontextmenu="return false">
+        <div class="loginbox">
+          <img id="new" src="images\avatar.png" >
+
+          <h3>LOGIN HERE</h3>
+
+      <form method="post" action="loginpro.php" >
+          <p>USERNAME</p> <input  type="text"  required placeholder="Enter Your USERNAME" name="usrid"><br>
+
+          <p>PASSWORD</p>  <input type="PASSWORD" required placeholder="Enter Your PASSWORD" name="pass"><br><br>
+            <h4 class="loginas">LOGIN AS:</h4>  
+        <!-- <div id="select">
+                
+          
+        <select class="select" name="login">
+
+        <option value="COMPANY">COMPANY</option>
+        <option value="STUDENT">STUDENT</option>
+            </select>
+          
+        </div> -->
+         <div id="select">
+        <select class="select" name="categ">
+            <option value="SelectCategory">Select Category</option>
+            <option value="COMPANY">COMPANY</option>
+            <option value="STUDENT">STUDENT</option>
+            
+        </select>
+      </div> 
+
+        <input  type="submit" value="LOGIN" >
+
+      </form>
+      <a href="#">Forgot Your Password?</a> 
+      
+      
+      <h4>If You are new Register Here!</h4>
+      
+      <div class="signup">
+      <a id="signup1" href="registercompany.html">COMPANY REGISTRATION</a>
+      <a id="signup2" href="studentregistration.php">STUDENT REGISTRATION</a>
+      </div>  
+      </div>
+        <script src="script.js"></script>
+   </body>
+  </html>
+
+
